@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     //mTextMessage.setText(R.string.title_home);
-                    //Intent exemplo1 = new Intent(MainActivity.this, Main2Activity.class);
-                    //startActivity(exemplo1);
+                    Intent exemplo1 = new Intent(MainActivity.this, MapsActivity.class);
+                    startActivity(exemplo1);
                     //return true;
                 case R.id.navigation_dashboard:
                     //mTextMessage.setText(R.string.title_dashboard);
