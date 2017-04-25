@@ -55,16 +55,16 @@ public class MapsActivity extends SupportMapFragment implements OnMapReadyCallba
         mMap.setOnMapClickListener(this);
         mMap.getUiSettings().setZoomControlsEnabled(true);
         //String url = "http://192.168.43.224:3000/Data";
-        String url = "http://192.168.43.195:8080/lista/home/jsonContatos";
-        getJson(url);
+        String url = "http://192.168.0.102:3000/Data";
+        //getJson(url);
         //System.out.println(url);
 
-        //LatLng cordenadas = new LatLng(-19.5515, -43.5616);
-        //MarkerOptions marker = new MarkerOptions();
-        //marker.position(cordenadas);
-        //marker.title("Borracheiro");String url = "http://192.168.43.195:8080/lista/home/jsonContatos";
-        getJson(url);
-        //mMap.addMarker(marker);
+        LatLng cordenadas = new LatLng(-19.5515, -43.5616);
+        MarkerOptions marker = new MarkerOptions();
+        marker.position(cordenadas);
+        marker.title("Borracheiro");//String url = "http://192.168.43.195:8080/lista/home/jsonContatos";
+        //getJson(url);
+        mMap.addMarker(marker);
 
         //mMap.moveCamera(CameraUpdateFactory.newLatLng(bh));
         
@@ -78,7 +78,7 @@ public class MapsActivity extends SupportMapFragment implements OnMapReadyCallba
                 Toast.LENGTH_SHORT).show();
     }
 
-    private void getJson(final String url){
+    /*private void getJson(final String url){
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -119,5 +119,5 @@ public class MapsActivity extends SupportMapFragment implements OnMapReadyCallba
             marker.title(endereco.getNome());
             mMap.addMarker(marker);
         }
-    }
+    }*/
 }

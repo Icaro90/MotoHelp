@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     //return true;
                 case R.id.navigation_dashboard:
                     //mTextMessage.setText(R.string.title_dashboard);
-                    Intent exemplo2 = new Intent(MainActivity.this, Main2Activity.class);
+                    Intent exemplo2 = new Intent(MainActivity.this, PerguntasActivity.class);
                     startActivity(exemplo2);
                     //return true;
                 case R.id.navigation_notifications:
