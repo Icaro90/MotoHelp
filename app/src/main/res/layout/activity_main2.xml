@@ -25,10 +25,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="382dp"
-        android:layout_height="90dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="126dp" />
+    android:id="@+id/textView"
+    android:layout_width="382dp"
+    android:layout_height="90dp"
+    android:text="TextView s"
+    tools:layout_editor_absoluteY="16dp"
+    tools:layout_editor_absoluteX="126dp" />
+
+
 </android.support.constraint.ConstraintLayout>
