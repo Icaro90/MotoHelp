@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/botao1"
-        android:layout_width="376dp"
+        android:layout_width="377dp"
         android:layout_height="41dp"
         android:text="Azul"
         tools:layout_editor_absoluteX="4dp"
