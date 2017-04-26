@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     //mTextMessage.setText(R.string.title_notifications);
                     //Intent exemplo3 = new Intent(MainActivity.this, Main2Activity.class);
                     //startActivity(exemplo3);
-                    //return true;
+                    //return true;1
             }
             return false;
         }
