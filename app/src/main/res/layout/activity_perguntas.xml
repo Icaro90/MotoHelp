@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.icaro.testeprototipo.PerguntasActivity">
+    tools:context="com.example.perguntas.perguntas_10.Activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,13 +17,17 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/fundo_texto"
+                android:gravity="center_vertical"
                 android:text="Qual o objetivo da sua moto?"
-                android:textColor="@android:color/background_dark" />
+                android:textColor="@android:color/black"/>
+
+
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:text="Trabalhar"/>
+                android:textColor="@android:color/black"
+                android:text="Trabalhar" />
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
@@ -33,36 +37,31 @@
                 android:layout_height="30dp"
                 android:text="Trilha/OffRoad"/>
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/fundo_texto"
+                android:gravity="center_vertical"
                 android:text="Voce irá andar de moto com?"
-                android:textColor="@android:color/background_dark" />
+                android:textColor="@android:color/black" />
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:text="Garupa"/>
+                android:text="Garupa" />
+
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="Sem garupa"/>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@color/colorPrimary"
-                android:text="No seu percurso, qual o limite de velocidade maxima?"/>
+                android:background="@drawable/fundo_texto"
+                android:gravity="center_vertical"
+                android:text="No seu percurso, qual o limite de velocidade maxima?"
+                android:textColor="@android:color/black"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -76,18 +75,18 @@
                 android:layout_height="40dp"
                 android:text="80km"/>
             <RadioButton
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:text="110km"/>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@color/colorPrimary"
-                android:text="Qual estilo de moto você gosta"/>
+                android:background="@drawable/fundo_texto"
+                android:gravity="center_vertical"
+                android:text="Qual estilo de moto você gosta"
+                android:textColor="@android:color/black"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -116,19 +115,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="OffRoad"/>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@color/colorPrimary"
-                android:text="Qual o valor maximo você pretende gastar?"/>
+                android:background="@drawable/fundo_texto"
+                android:gravity="center_vertical"
+                android:text="Qual o valor maximo você pretende gastar?"
+                android:textColor="@android:color/black"/>
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="R$ 10.000"/>
+
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -137,10 +136,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:text="R$ 26.000"/>
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="54dp"
+                android:layout_marginRight="54dp"
+                android:layout_marginTop="138dp"
+                android:text="SALVAR" />
         </LinearLayout>
     </ScrollView>
+
 
 </RelativeLayout>
