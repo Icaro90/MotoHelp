@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
                     //return true;
                 case R.id.navigation_notifications:
                     //mTextMessage.setText(R.string.title_notifications);
-                    //Intent exemplo3 = new Intent(MainActivity.this, Main2Activity.class);
-                    //startActivity(exemplo3);
+                    Intent exemplo3 = new Intent(MainActivity.this, AboutActivity.class);
+                    startActivity(exemplo3);
                     //return true;1
             }
             return false;
